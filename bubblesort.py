@@ -1,5 +1,5 @@
 # Python program for implementation of Bubble Sort 
-
+# run time bubble-sort
 def bubbleSort(arr): 
 	n = len(arr) 
 
@@ -17,7 +17,7 @@ def bubbleSort(arr):
 				arr[j], arr[j+1] = arr[j+1], arr[j] 
 
 # Driver code to test above 
-arr = [64, 34, 25, 12, 22, 11, 90] 
+arr = list(map(int,input().split()))
 
 bubbleSort(arr) 
 
