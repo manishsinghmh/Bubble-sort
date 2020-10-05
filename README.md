@@ -1,1 +1,1 @@
-# Bubble-sort IN PYTHON
+# Bubble-sort in Python
